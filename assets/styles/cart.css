@@ -1,26 +1,24 @@
-*{
-    padding:0;
-    margin:0;
-    box-sizing: border-box;
-}
 .container{
     height:98vh;
     width:100vw;
     /* border: 1px solid rgb(233, 19, 19); */
     display: flex;
     gap:1px;
+    position: fixed;
+    z-index: 10;
+    display: none;
 }
 .blackBox{
     height: 98vh;
     width:67%;
     background-color: black;
-    opacity:0.9;
+    opacity:0.7;
 }
 .cartViewPage{
     height:98vh;
     width: 33%;
-    /* border:1px solid black; */
-    padding-right:10px;
+    background-color: whitesmoke;
+    padding: 1rem;
 }
 .cartOverview{
     height:4rem;
@@ -109,13 +107,15 @@
  }
  #checkout{
     width:80%;
-    height:1.5rem;
+    height:2.5rem;
     background-color:orangered;
     border-radius:10px;
+    border: none;
+    color: whitesmoke;font-weight: 200;
  }
  .fterBt{
     display:flex;
     align-content: center;
     justify-content: center;
-    margin-top: 10px;
+    margin-top: 50px;
  }
